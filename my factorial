@@ -1,0 +1,7 @@
+function myfct = my_factorial(~)
+f = 1;
+n = input('n=');
+for i = 1 : n
+    f = f * i;
+    myfct = f;
+end
